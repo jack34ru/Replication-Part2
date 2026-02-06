@@ -64,14 +64,14 @@ Stores Shard0 - магазины 1-100
 Stores Shard1 - магазины 101-200
 
 Репликация для master-серверов:
-| Сервер     | Режим                              |
-| ---------- | ---------------------------------- |
-| DB1-master | Read/Write (users, shard 0)        |
-| DB1-slave  | Read-Only  (users, shard 0)        |
-| DB2-master | Read/Write (books, shard 0)        |
-| DB2-slave  | Read-Only  (books, shard 0)        |
-| DB3-master | Read/Write (stores, shard 0)       |
-| DB3-slave  | Read-Only  (stores, shard 0)       |
+| Сервер     | Режим                                |
+| ---------- | ----------------------------------   |
+| DB1-master | Read/Write (users, shard 0, shard 1) |
+| DB1-slave  | Read-Only  (users, shard 0, shard 1) |
+| DB2-master | Read/Write (books, shard 0, shard 1) |
+| DB2-slave  | Read-Only  (books, shard 0, shard 1) |
+| DB3-master | Read/Write (stores, shard 0, shard 1)|
+| DB3-slave  | Read-Only  (stores, shard 0, shard 1)|
 
 
 Блок схема:
