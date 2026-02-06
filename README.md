@@ -75,6 +75,7 @@ Stores Shard1 - магазины 101-200
 
 
 Блок схема:
+```
 
                         +----------------------+
                         |      Приложение      |
@@ -96,3 +97,4 @@ Stores Shard1 - магазины 101-200
    |  Users Shard0  |       |  Books Shard0  |       | Stores Shard0  |
    |  Users Shard1  |       |  Books Shard1  |       | Stores Shard1  |
    +----------------+       +----------------+       +----------------+
+   ```
