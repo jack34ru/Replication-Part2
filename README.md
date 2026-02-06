@@ -85,7 +85,7 @@ Stores Shard1 - магазины 101-200
             v                       v                      v
    +----------------+       +----------------+       +----------------+
    |  DB1 Master    |       |  DB2 Master    |       |  DB3 Master    |
-   | (Users Table)  |       | (Books Table)  |       | Stores Table)  |
+   | (Users Table)  |       | (Books Table)  |       | (Stores Table) |
    |  Users Shard0  |       |  Books Shard0  |       | Stores Shard0  |
    |  Users Shard1  |       |  Books Shard1  |       | Stores Shard1  |
    +----------------+       +----------------+       +----------------+
